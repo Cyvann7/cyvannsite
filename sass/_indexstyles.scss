@@ -29,6 +29,10 @@ header {
     @include fadetext(5s, $line5);
 }
 
+.text6 {
+    @include fadetext(6s, $line6);
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
