@@ -1,0 +1,38 @@
+$dark_bg_color: #0e0913;
+$main-txt-color: #e0e0e0;
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght,CRSV,MONO@500,0,1&display=swap');
+@mixin text($fontsize) {
+    font-family: 'Recursive', sans-serif;
+    font-size: $fontsize;
+    color: $main-txt-color;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@mixin fadetext($wait,
+$text) {
+    @include text(100%);
+    &::before {
+        opacity: 0;
+        animation: fadeIn 1s linear $wait 1 normal forwards;
+        content: ">>  ";
+    }
+    &::after {
+        opacity: 0;
+        animation: fadeIn 1s linear $wait 1 normal forwards;
+        content: $text;
+    }
+}
+
+$line1: "I made this site to be a collection of my work.";
+$line2: "Im a student studying Computer Science, Electronics and Maths.";
+$line3: "You find out how to contact me by clicking here.";
+$line4: "In the meantime, why not look at some of my projects?";
+$line5: "They're all available for free and open source.";

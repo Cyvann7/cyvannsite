@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WORDER</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="content">
+        <h3 class="title" id="startingWord">WORDER</h3>
+
+        <p class="guesses" id="alertBox">Guess A Word!</p>
+
+        <div class="inpdiv">
+            <input minlength="5" maxlength="5" autocomplete="off" class="input" id="guessinput" type="text" onkeypress="enterPressed(event)">
+            </input>
+        </div>
+
+        <p class="guesses" id="guess1">Guess 1</p>
+        <p class="guesses" id="guess2">Guess 2</p>
+        <p class="guesses" id="guess3">Guess 3</p>
+        <p class="guesses" id="guess4">Guess 4</p>
+        <p class="guesses" id="guess5">Guess 5</p>
+        <p class="guesses" id="guess6">Guess 6</p>
+    </div>
+
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <script src="words.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

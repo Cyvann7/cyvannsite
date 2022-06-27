@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght,CRSV,MONO@500,0,1&display=swap");
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  background-color: #0e0913;
+}
+
+header {
+  font-family: "Recursive", sans-serif;
+  font-size: 300%;
+  color: #e0e0e0;
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.text1 {
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+}
+.text1::before {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 1s 1 normal forwards;
+          animation: fadeIn 1s linear 1s 1 normal forwards;
+  content: ">>  ";
+}
+.text1::after {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 1s 1 normal forwards;
+          animation: fadeIn 1s linear 1s 1 normal forwards;
+  content: "I made this site to be a collection of my work.";
+}
+
+.text2 {
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+}
+.text2::before {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
+          animation: fadeIn 1s linear 2s 1 normal forwards;
+  content: ">>  ";
+}
+.text2::after {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
+          animation: fadeIn 1s linear 2s 1 normal forwards;
+  content: "Im a student studying Computer Science, Electronics and Maths.";
+}
+
+.text3 {
+  background-color: #0e0913;
+  padding: 0px;
+  border: none;
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+}
+.text3::before {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 3s 1 normal forwards;
+          animation: fadeIn 1s linear 3s 1 normal forwards;
+  content: ">>  ";
+}
+.text3::after {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 3s 1 normal forwards;
+          animation: fadeIn 1s linear 3s 1 normal forwards;
+  content: "You find out how to contact me by clicking here.";
+}
+.text3:hover {
+  color: #bb00ff;
+}
+
+.text4 {
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+}
+.text4::before {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 4s 1 normal forwards;
+          animation: fadeIn 1s linear 4s 1 normal forwards;
+  content: ">>  ";
+}
+.text4::after {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 4s 1 normal forwards;
+          animation: fadeIn 1s linear 4s 1 normal forwards;
+  content: "In the meantime, why not look at some of my projects?";
+}
+
+.text5 {
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+}
+.text5::before {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 5s 1 normal forwards;
+          animation: fadeIn 1s linear 5s 1 normal forwards;
+  content: ">>  ";
+}
+.text5::after {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 5s 1 normal forwards;
+          animation: fadeIn 1s linear 5s 1 normal forwards;
+  content: "They're all available for free and open source.";
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.projects {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
+          animation: fadeIn 1s linear 6s 1 normal forwards;
+}
+
+.project {
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+  background-color: #0e0913;
+  padding: 0px;
+  border: none;
+}
+.project:hover {
+  color: #bb00ff;
+}
+
+.ContactButton {
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+  -webkit-animation: fadeIn;
+          animation: fadeIn;
+  background-color: #0e0913;
+  padding: 0px;
+  border: none;
+}
+.ContactButton:hover {
+  color: #bb00ff;
+}
+
+.text {
+  font-family: "Recursive", sans-serif;
+  font-size: 100%;
+  color: #e0e0e0;
+}/*# sourceMappingURL=style.css.map */

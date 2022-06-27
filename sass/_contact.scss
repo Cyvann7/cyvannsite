@@ -1,0 +1,14 @@
+.ContactButton {
+    @include text(100%);
+    animation: fadeIn;
+    background-color: $dark_bg_color;
+    padding: 0px;
+    border: none;
+    &:hover {
+        color: #bb00ff;
+    }
+}
+
+.text {
+    @include text(100%);
+}

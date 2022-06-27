@@ -1,0 +1,39 @@
+header {
+    @include text(300%);
+    animation: fadeIn 1s;
+}
+
+.text1 {
+    @include fadetext(1s, $line1);
+}
+
+.text2 {
+    @include fadetext(2s, $line2);
+}
+
+.text3 {
+    background-color: $dark_bg_color;
+    padding: 0px;
+    border: none;
+    @include fadetext(3s, $line3);
+    &:hover {
+        color: #bb00ff;
+    }
+}
+
+.text4 {
+    @include fadetext(4s, $line4);
+}
+
+.text5 {
+    @include fadetext(5s, $line5);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1
+    }
+}
