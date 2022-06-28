@@ -2,7 +2,7 @@ function discordButtonPressed() {
     navigator.clipboard.writeText("Cyvann7#1783");
     text = document.getElementById("copyDiscord")
     text.innerHTML = "<b>&nbsp&nbsp&nbsp&nbsp &gt&gt Copied To Clipboard! </b>";
-    setTimeout(() => text.innerHTML = "", 3000);
+    setTimeout(() => text.innerHTML = "&nbsp&nbsp&nbsp&nbsp &gt&gt Discord: Cyvann7#1783", 3000);
 };
 
 function emailButtonPressed() {
