@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'Graph')">Graph</button>
+        <button class="tablinks" onclick="openTab(event, 'Help')">Help</button>
+        <button class="tablinks" onclick="openTab(event, 'Algorithm')">Algo</button>
+    </div>
+
+    <div id="Graph" class="tabcontent">
+        <canvas class="MainCanvas" id="canvas">
+			<p>Your browser doesnt support canvas :P</p>
+		</canvas>
+    </div>
+
+    <div id="Help" class="tabcontent">
+        <p>Graphing tool. Make nodes and connect them with edges</p>
+        <ul class="text">
+            <li>Press [n] to add a new node.</li>
+            <li>[Click] on a node to select it.</li>
+            <li>Click another node to create an edge between it and the selected node.</li>
+            <li>Press [d] to delete the selected node</li>
+            <li>Press [b] to begin algorithm, choose it from |Algo|</li>
+            <li>Press [r] to reset colours and deselect nodes</li>
+            <li>Click a new location to move the selected node</li>
+            <li>All edges are directed by default, going from white to pink.</li>
+            <li>Create an undirected edge by making an edge both ways</li>
+            <li>Remove an edge by going back over it</li>
+            <li>Note that when adding an undirected edge, you need to manually set them to both have the same edge-weight.</li>
+        </ul>
+    </div>
+
+    <div id="Algorithm" class="tabcontent">
+        <nobr>Algorithm:</nobr>
+        <select name="algorithm" id="algoselectdrop">
+			<option class="sel" value="DFS">Depth First Search</option>
+			<option class="sel" value="BFS">Breadth First Search</option>
+			<option class="sel" value="DJI">Djikstra's Shortest Path</option>
+		</select>
+        <br><br>
+        <div display="flex" style="align-items: center;">
+
+            <nobr>Start: </nobr>
+            <select name="startnode" id="startnodeselect">
+			</select>
+            <nobr>&NonBreakingSpace;</nobr>
+            <nobr>End: </nobr>
+            <select name="endnode" id="endnodeselect">
+			</select>
+
+        </div>
+    </div>
+
+    <script src="classes.js"></script>
+    <script src="keyevents.js"></script>
+    <script src="clicksevents.js"></script>
+    <script src="main.js"></script>
+    <script src="algos.js"></script>
+</body>
+
+</html>
