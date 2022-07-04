@@ -82,7 +82,7 @@ header {
   opacity: 0;
   -webkit-animation: fadeIn 1s linear 3s 1 normal forwards;
           animation: fadeIn 1s linear 3s 1 normal forwards;
-  content: "You find out how to contact me by clicking here.";
+  content: "You can find out how to contact me by clicking here.";
 }
 .text3:hover {
   color: #bb00ff;
