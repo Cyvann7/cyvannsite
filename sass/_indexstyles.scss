@@ -1,36 +1,36 @@
 header {
     @include text(300%);
-    animation: fadeIn 1s;
+    animation: fadeIn 0.5s;
 }
 
 .text1 {
-    @include fadetext(1s, $line1);
+    @include fadetext(0.5s, $line1);
 }
 
 .text2 {
-    @include fadetext(2s, $line2);
+    @include fadetext(1s, $line2);
 }
 
 .text3 {
     background-color: $dark_bg_color;
     padding: 0px;
     border: none;
-    @include fadetext(3s, $line3);
+    @include fadetext(1.5s, $line3);
     &:hover {
         color: #bb00ff;
     }
 }
 
 .text4 {
-    @include fadetext(4s, $line4);
+    @include fadetext(2s, $line4);
 }
 
 .text5 {
-    @include fadetext(5s, $line5);
+    @include fadetext(2.5s, $line5);
 }
 
 .text6 {
-    @include fadetext(6s, $line6);
+    @include fadetext(3s, $line6);
 }
 
 @keyframes fadeIn {

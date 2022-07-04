@@ -21,12 +21,12 @@ $text) {
     @include text(100%);
     &::before {
         opacity: 0;
-        animation: fadeIn 1s linear $wait 1 normal forwards;
+        animation: fadeIn 0.5s linear $wait 1 normal forwards;
         content: ">>  ";
     }
     &::after {
         opacity: 0;
-        animation: fadeIn 1s linear $wait 1 normal forwards;
+        animation: fadeIn 0.5s linear $wait 1 normal forwards;
         content: $text;
     }
 }

@@ -132,7 +132,6 @@ ri = 0;
 
 function draw() {
 
-    window.requestAnimationFrame(draw);
     ctx.clearRect(0, 0, width, height);
     ctx.fillStyle = '#FFFFFF';
     ctx.font = '3vw Recursive, sans-serif';
@@ -172,6 +171,8 @@ function draw() {
         }
         sleep(500);
     }
+
+    window.requestAnimationFrame(draw);
 }
 
 var selected_node = false;

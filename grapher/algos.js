@@ -27,7 +27,7 @@ function depth_first_traversal(graph, s) {
     }
 
     final_stack.push("DONE")
-    return [final_stack, ["DONE"]];
+    return final_stack;
 }
 
 function breadth_first_traversal(graph, s) {
@@ -47,7 +47,7 @@ function breadth_first_traversal(graph, s) {
     }
 
     final_stack.push("DONE")
-    return [final_stack, ["DONE"]];
+    return final_stack;
 }
 
 function djisktras_shortest_path(graph, start, end) {

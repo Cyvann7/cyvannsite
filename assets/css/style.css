@@ -16,16 +16,16 @@
   }
 }
 body {
-  background-color: #0e0913;
   padding-left: 10px;
+  background-color: #0e0913;
 }
 
 header {
   font-family: "Recursive", sans-serif;
   font-size: 300%;
   color: #e0e0e0;
-  -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s;
+  -webkit-animation: fadeIn 0.5s;
+          animation: fadeIn 0.5s;
 }
 
 .text1 {
@@ -35,14 +35,14 @@ header {
 }
 .text1::before {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 1s 1 normal forwards;
-          animation: fadeIn 1s linear 1s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 0.5s 1 normal forwards;
+          animation: fadeIn 0.5s linear 0.5s 1 normal forwards;
   content: ">>  ";
 }
 .text1::after {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 1s 1 normal forwards;
-          animation: fadeIn 1s linear 1s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 0.5s 1 normal forwards;
+          animation: fadeIn 0.5s linear 0.5s 1 normal forwards;
   content: "I made this site to be a collection of my work.";
 }
 
@@ -53,14 +53,14 @@ header {
 }
 .text2::before {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
-          animation: fadeIn 1s linear 2s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 1s 1 normal forwards;
+          animation: fadeIn 0.5s linear 1s 1 normal forwards;
   content: ">>  ";
 }
 .text2::after {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 2s 1 normal forwards;
-          animation: fadeIn 1s linear 2s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 1s 1 normal forwards;
+          animation: fadeIn 0.5s linear 1s 1 normal forwards;
   content: "Im a student studying Computer Science, Electronics and Maths.";
 }
 
@@ -74,14 +74,14 @@ header {
 }
 .text3::before {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 3s 1 normal forwards;
-          animation: fadeIn 1s linear 3s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 1.5s 1 normal forwards;
+          animation: fadeIn 0.5s linear 1.5s 1 normal forwards;
   content: ">>  ";
 }
 .text3::after {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 3s 1 normal forwards;
-          animation: fadeIn 1s linear 3s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 1.5s 1 normal forwards;
+          animation: fadeIn 0.5s linear 1.5s 1 normal forwards;
   content: "You can find out how to contact me by clicking here.";
 }
 .text3:hover {
@@ -95,14 +95,14 @@ header {
 }
 .text4::before {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 4s 1 normal forwards;
-          animation: fadeIn 1s linear 4s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 2s 1 normal forwards;
+          animation: fadeIn 0.5s linear 2s 1 normal forwards;
   content: ">>  ";
 }
 .text4::after {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 4s 1 normal forwards;
-          animation: fadeIn 1s linear 4s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 2s 1 normal forwards;
+          animation: fadeIn 0.5s linear 2s 1 normal forwards;
   content: "In the meantime, why not look at some of my projects?";
 }
 
@@ -113,14 +113,14 @@ header {
 }
 .text5::before {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 5s 1 normal forwards;
-          animation: fadeIn 1s linear 5s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 2.5s 1 normal forwards;
+          animation: fadeIn 0.5s linear 2.5s 1 normal forwards;
   content: ">>  ";
 }
 .text5::after {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 5s 1 normal forwards;
-          animation: fadeIn 1s linear 5s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 2.5s 1 normal forwards;
+          animation: fadeIn 0.5s linear 2.5s 1 normal forwards;
   content: "They're all available for free and open source.";
 }
 
@@ -131,14 +131,14 @@ header {
 }
 .text6::before {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
-          animation: fadeIn 1s linear 6s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 3s 1 normal forwards;
+          animation: fadeIn 0.5s linear 3s 1 normal forwards;
   content: ">>  ";
 }
 .text6::after {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
-          animation: fadeIn 1s linear 6s 1 normal forwards;
+  -webkit-animation: fadeIn 0.5s linear 3s 1 normal forwards;
+          animation: fadeIn 0.5s linear 3s 1 normal forwards;
   content: "I made this site using SCSS and JS. Its hosted using AWS Amplify and AWS Route53.";
 }
 
@@ -152,8 +152,8 @@ header {
 }
 .projects {
   opacity: 0;
-  -webkit-animation: fadeIn 1s linear 6s 1 normal forwards;
-          animation: fadeIn 1s linear 6s 1 normal forwards;
+  -webkit-animation: fadeIn 1s linear 3.5s 1 normal forwards;
+          animation: fadeIn 1s linear 3.5s 1 normal forwards;
 }
 
 .project {
