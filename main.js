@@ -22,7 +22,6 @@ function onLiHover(a) {
 }
 
 function oneCharAtATime(el, str) {
-	console.log(str);
 	let c = str[0];
 	if (c==null) {
 		return;
