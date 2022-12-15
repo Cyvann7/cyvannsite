@@ -1,54 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <a href="index.html">
-        <title>J Sheeley</title>
-    </a>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>J Sheeley</title>
+	<link href="style.css" rel="stylesheet">
+	<script src="main.js"></script>
+	<script src="pageSections.js"></script>
 </head>
-
 <body>
-    <header class="1">Hi. I'm James.</header>
-    <p class="text1"></p>
-    <p class="text2"></p>
-    <button class="text3" id="copyDiscord" onclick="contactsButtonPressed()"></button>
-    <p class="text4"></p>
-    <p class="text5"></p>
-    <p class="text6"></p>
+	<div id="screen">
+		<img src="Assets/scanlines.png" id="image-scan-1">
+		<img src="Assets/scanlines.png" id="image-scan-2">
+		<div id="content">
 
 
-    <div class="projects">
-        <a href="worder.html">
-            <button class="project">	&nbsp&nbsp&nbsp&nbsp &gt&gt Worder</button>
-        </a>
-        <br>
+			<p class="text-main">CyOS [Version 05.04.06] <br> C:\Site&gt;ls</p>
+			<ul class="list-main">
+				<li onmouseover="onLiHover('AboutMe.txt' )" onclick="onLiClick('AboutMe.txt' )" class="text-main" >AboutMe.txt</li>
+				<li onmouseover="onLiHover('Projects.txt')" onclick="onLiClick('Projects.txt')" class="text-main" >Projects.txt</li>
+				<li onmouseover="onLiHover('Contacts.txt')" onclick="onLiClick('Contacts.txt')" class="text-main" >Contacts.txt</li>
+				<li onmouseover="onLiHover('ThisSite.txt')" onclick="onLiClick('ThisSite.txt')" class="text-main" >ThisSite.txt</li>
+				<li onmouseover="onLiHover('Legacy.txt' )" onclick="onLiClick('Legacy.txt' )" class="text-main" >Legacy.txt</li>
+				<li onmouseover="onLiHover('Snake.txt'   )" onclick="onLiClick('Snake.txt'   )" class="text-main" >Snake.txt</li>
+			</ul>
+			<div id="beforeConsole">
 
-        <a href="spacemansteve.html">
-            <button class="project">	&nbsp&nbsp&nbsp&nbsp &gt&gt Spaceman Steve</button>
-        </a>
-        <br>
+			</div>
+			<p id="consoleLine" class="text-console">C:\Site&gt;<span class="input-caret">█</span></p>
 
-        <a href="wasmsnake.html">
-            <button class="project">	&nbsp&nbsp&nbsp&nbsp &gt&gt WASM Snake</button>
-        </a>
-        <br>
-
-        <a href="grapher.html">
-            <button class="project">	&nbsp&nbsp&nbsp&nbsp &gt&gt Graphing Tool</button>
-        </a>
-        <br>
-    </div>
-
-
-
-
-    <script src="scripts/index.js"></script>
-
-
+			
+		</div>
+		<img src="Assets/bezel.png" id="image-bezel">
+	</div>	
 </body>
-
 </html>

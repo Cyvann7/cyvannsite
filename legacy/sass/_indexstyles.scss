@@ -4,33 +4,33 @@ header {
 }
 
 .text1 {
-    @include fadetext(0.5s, $line1);
+    @include fadetext(0.2s, $line1);
 }
 
 .text2 {
-    @include fadetext(1s, $line2);
+    @include fadetext(0.4s, $line2);
 }
 
 .text3 {
     background-color: $dark_bg_color;
     padding: 0px;
     border: none;
-    @include fadetext(1.5s, $line3);
+    @include fadetext(0.6s, $line3);
     &:hover {
         color: #bb00ff;
     }
 }
 
 .text4 {
-    @include fadetext(2s, $line4);
+    @include fadetext(0.8s, $line4);
 }
 
 .text5 {
-    @include fadetext(2.5s, $line5);
+    @include fadetext(1s, $line5);
 }
 
 .text6 {
-    @include fadetext(3s, $line6);
+    @include fadetext(1.2s, $line6);
 }
 
 @keyframes fadeIn {
